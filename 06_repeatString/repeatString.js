@@ -4,9 +4,7 @@
 // add string to results after every iteration
 // return results 
 // call the function and pass in the arguments.
-const number = () => {
-    Math.floor(Math.random)
-}
+
 
 
 const repeatString = (string, num) => {
