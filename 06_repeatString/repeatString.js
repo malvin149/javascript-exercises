@@ -1,6 +1,19 @@
-const repeatString = function() {
+//create a function that takes two arguments string and num
+// create a variable called results to hold the results, empty str
+// create a loop that will repeat a given number of times (num) times 
+// add string to results after every iteration
+// return results 
+// call the function and pass in the arguments.
 
-};
+const repeatString = (string, num) => {
+    let results = '';
+    for (let i = 0; i < num; i++) {
+        results += string;
+    }
+    return results;
+}
+
+repeatString('hey', 3);
 
 // Do not edit below this line
 module.exports = repeatString;
