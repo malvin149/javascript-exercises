@@ -9,16 +9,13 @@ const subtract = function(a, b) {
 };
 
 const sum = function(arr) {
-	if (!Array.isArray(arr) || arr.length === 0) {
-    return 0;
-  } 
-  const total = arr.reduce((accumulator, currentValue) => {
-    return accumulator + currentValue}, 0);
+  const total = arr.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
   return total;
 };
 
-const multiply = function() {
-
+const multiply = function(arr) {
+  const total = arr.reduce((accumulator, currentValue) => accumulator * currentValue ,1);
+  return total;
 };
 
 const power = function() {
