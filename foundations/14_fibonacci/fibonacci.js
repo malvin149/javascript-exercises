@@ -1,4 +1,4 @@
-const fibonacci = function(position) {
+const fibonacci = (position) => {
     position = Number(position);
     if (position < 0) return 'OOPS';
     if (position === 0) return 0;
