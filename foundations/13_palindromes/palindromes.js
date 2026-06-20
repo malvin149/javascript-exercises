@@ -1,12 +1,8 @@
-const palindromes =function (string) {
-    let cleanedString = string.toLowerCase().replace(/[^\w]/g, '');
-    let reversedString = cleanedString.split('').reverse().join('');
+const palindromes = (string)  => {
+    const cleaned = string.toLowerCase().replace(/[^\w]/g, '');
+    const reversed = cleaned.split('').reverse().join('');
 
-    if (cleanedString === reversedString) {
-        return true;
-    } else {
-        return false;
-    }
+    return cleaned === reversed;
 };
 
 // Do not edit below this line
